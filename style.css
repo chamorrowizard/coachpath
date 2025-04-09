@@ -1,0 +1,10 @@
+img {
+    display: block;
+    max-width: 100%;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
