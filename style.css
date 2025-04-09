@@ -6,14 +6,21 @@ img {
 button{
     max-width: 100%;
 }
+body{
+    font-family: arial;
+    background-color: #0a0f1e;
+    color: white;
+    line-height: 1.6;
+}
 
 .wrapper{
     display: flex;
     justify-content: space-between;
+
 }
 .sidebar-left{
-    border: 2px solid;
-  
+    /* border: 2px solid; */
+    
 }
 ul{
     margin: 0;
@@ -26,21 +33,20 @@ ul{
     
 
 }
-.button-left{
-    width
+.button-left {
 }
 
 .main-content{
 display: flex;
 flex-direction: column;
-align-content: center;
+align-items: center;
 flex: 1;
 border: 2px solid;
 /* Check height later */
-height: 100vh; 
+/* height: 100vh;  */
 
 }
 
 .sidebar-right{
- border: 2px solid;
+ /* border: 2px solid; */
 }
