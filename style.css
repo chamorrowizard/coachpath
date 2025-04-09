@@ -3,8 +3,44 @@ img {
     max-width: 100%;
 
 }
+button{
+    max-width: 100%;
+}
 
 .wrapper{
     display: flex;
     justify-content: space-between;
+}
+.sidebar-left{
+    border: 2px solid;
+  
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-left ul{ 
+    /* border: 2px solid; */
+    list-style: none;  
+    
+
+}
+.button-left{
+    width
+}
+
+.main-content{
+display: flex;
+flex-direction: column;
+align-content: center;
+flex: 1;
+border: 2px solid;
+/* Check height later */
+height: 100vh; 
+
+}
+
+.sidebar-right{
+ border: 2px solid;
 }
